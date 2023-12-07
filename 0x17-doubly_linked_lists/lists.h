@@ -1,5 +1,5 @@
-#ifndef _LISTS_
-#define _LISTS_
+#ifndef _LISTS_H
+#define _LISTS_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -15,7 +15,7 @@
  */
 typedef struct dlistint_s
 {
-	int n:
+	int n;
 	struct dlistint_s *prev;
 	struct dlistint_s *next;
 } dlistint_t;
